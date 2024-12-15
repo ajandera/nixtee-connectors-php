@@ -1,0 +1,15 @@
+{
+    "name": "nixtee/php-client",
+    "description": "A PHP library for interacting with the Nixtee API.",
+    "type": "library",
+    "autoload": {
+      "psr-4": {
+        "NixteeClient\\": "src/"
+      }
+    },
+    "require": {
+      "php": ">=7.4",
+      "firebase/php-jwt": "^6.0"
+    }
+  }
+  
